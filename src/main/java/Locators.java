@@ -15,7 +15,6 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\wilfr\\Documents\\chro
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
-		
 		driver.findElement(By.id("inputUsername")).sendKeys("rahul");
 		driver.findElement(By.name("inputPassword")).sendKeys("hello123");
 		driver.findElement(By.id("signInBtn")).click();
