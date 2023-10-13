@@ -6,9 +6,6 @@ public class CoreJavaBrushUp1 {
 
 		int myNum = 5;
 		String website = "Grace Goualou Formation";
-		char letter = 'r';
-		double dec = 5.99;
-		boolean myCard = true;
 		System.out.println(myNum+"is the value stored in the myNum variable");
 		System.out.println(website);
 		//Arrays -
